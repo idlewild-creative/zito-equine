@@ -21,8 +21,9 @@ competes himself, with success at the Riata. Don't assume the current
 
 ## Structure
 - `index.html` — home
-- `stallions/` — one page per stallion (copy `stallions/_template.html`)
-- `breeding.html` — breeding info, fees, shipping, contracts
+- `stallions/` — one page per stallion (copy `stallions/_template.html`); each
+  stallion's own breeding info (stud fee, terms, semen availability) lives on
+  their page — there's no separate breeding page.
 - `contact.html` — breeding inquiry form (Netlify Forms)
 - `css/style.css` — all styles; design tokens live at the top in `:root`
 - `js/main.js` — mobile nav + small enhancements only
