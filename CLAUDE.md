@@ -1,9 +1,17 @@
 # ZITO Equine — project brief for Claude Code
 
 ## What this is
-Marketing website for ZITO Equine, a stallion owner. Project comes through
+Marketing website for ZITO Equine, owned by David Zito. Project comes through
 Chelsea Shaffer (Equine Network side work). Built and maintained by
 Kari DeCastro / Idlewild Creative LLC — the client does NOT edit the site.
+
+The operation is bigger than the two flagship stallions currently on the site
+(Dirty Fling, WSR Hesa Dunofa Lena "Rooster"). There are additional unproven
+stallions (may or may not be featured), a band of mares (some to be
+highlighted), and locations in Colorado and Arizona in addition to where the
+stallions stand at stud (Solo Select in TX, Lazy E in OK). David Zito also
+competes himself, with success at the Riata. Don't assume the current
+2-stallion, 2-location scope is the full picture when planning site structure.
 
 ## Stack
 - Plain static HTML / CSS / vanilla JS. No build step, no framework.
@@ -33,5 +41,12 @@ Kari DeCastro / Idlewild Creative LLC — the client does NOT edit the site.
     git push
 
 ## Still to gather from client
-Logo, brand colors, stallion names + pedigrees + photos/video, stud fees,
-breeding terms, contact info, domain + where DNS lives.
+- Domain + where DNS lives.
+- Photo for WSR Hesa Dunofa Lena "Rooster" (Dirty Fling's photo is in).
+- Decision on which additional (unproven) stallions to feature, if any.
+- Mare band info + photos, and which mares to highlight.
+- Details on the Colorado and Arizona locations (what happens at each).
+- David Zito's own competition bio/results (Riata success) — likely an About page.
+- Media page content (press, video, etc. — scope still undefined).
+- A family photo — Kari needs to shoot this in person at the Arizona property.
+- Foal photos for a future foal gallery (probably wanted, no photos yet).

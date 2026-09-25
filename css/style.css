@@ -217,6 +217,7 @@ a:hover { color: var(--color-gold); }
 }
 .hero .wrap { position: relative; }
 .hero .eyebrow { color: var(--color-gold-light); }
+.hero-mark { height: 48px; width: auto; margin: 0 auto 20px; filter: brightness(0) invert(1); opacity: .92; }
 .hero h1 {
   font-size: clamp(2.4rem, 6vw, 4.2rem);
   margin: 8px 0 16px;
@@ -310,6 +311,9 @@ a:hover { color: var(--color-gold); }
 .stallion-hero .eyebrow { color: var(--color-gold-light); margin-bottom: 8px; }
 .stallion-hero p { color: #e8e2d8; margin: 16px 0 0; font-size: 1.05rem; }
 
+/* Generic two-column split — reused by the About section on the homepage */
+.split { display: grid; gap: 48px; grid-template-columns: 1fr 1.1fr; align-items: start; }
+
 /* Stallion page */
 .stallion { display: grid; gap: 48px; grid-template-columns: 1fr 1.1fr; align-items: start; }
 .stallion-photo.card-img { aspect-ratio: 3/4; }
@@ -357,6 +361,6 @@ a:hover { color: var(--color-gold); }
   }
   .site-nav.open { display: block; }
   .site-nav a { display: block; margin: 14px 0; }
-  .stallion { grid-template-columns: 1fr; }
+  .stallion, .split { grid-template-columns: 1fr; }
   .hero { padding: 90px 0; }
 }
