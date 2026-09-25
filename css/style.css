@@ -59,6 +59,123 @@ a:hover { color: var(--color-gold); }
 }
 .divider.center { margin: 20px auto; }
 
+.section-label {
+  display: block;
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--color-gold-dark);
+  margin-bottom: 10px;
+}
+
+.pill-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 4px 0 18px; }
+.pill {
+  display: inline-block;
+  border: 1px solid var(--color-gold);
+  color: var(--color-gold-dark);
+  padding: 5px 14px;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  border-radius: 999px;
+}
+.stallion-hero .pill-row { justify-content: center; }
+.stallion-hero .pill { color: var(--color-gold-light); border-color: var(--color-gold-light); }
+
+/* Fact ticker — quick-scan highlights under a hero */
+.ticker {
+  background: var(--color-black);
+  color: var(--color-gold-light);
+  overflow: hidden;
+  white-space: nowrap;
+  border-top: 1px solid var(--color-gold-dark);
+  border-bottom: 1px solid var(--color-gold-dark);
+}
+.ticker-track {
+  display: inline-block;
+  padding: 12px 0;
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  animation: ticker 28s linear infinite;
+}
+.ticker-track span { margin: 0 28px; }
+.ticker-track span::after { content: "\2726"; margin-left: 28px; color: var(--color-gold-dark); }
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; overflow-x: auto; }
+}
+
+/* Achievement list — accent bar per line */
+.achv-list { list-style: none; margin: 20px 0; padding: 0; }
+.achv-list li {
+  border-left: 3px solid var(--color-gold);
+  padding: 4px 0 4px 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Key facts grid */
+.key-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  border-top: 1px solid #e3d9c6;
+  border-bottom: 1px solid #e3d9c6;
+  padding: 20px 0;
+  margin: 24px 0;
+}
+.key-facts dt {
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: 4px;
+}
+.key-facts dd { margin: 0; font-weight: 700; }
+
+.photo-caption {
+  font-size: .85rem;
+  font-style: italic;
+  color: var(--color-muted);
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Stat strip — homepage-level highlights, echoes stallion-station stat rows */
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 32px;
+  text-align: center;
+  padding: 48px 0;
+  border-top: 1px solid #e3d9c6;
+  border-bottom: 1px solid #e3d9c6;
+}
+.stat-strip .stat-big {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--color-gold-dark);
+}
+.stat-strip .stat-label {
+  display: block;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-top: 4px;
+}
+
 /* Header */
 .site-header {
   background: var(--color-surface);
@@ -155,6 +272,16 @@ a:hover { color: var(--color-gold); }
 .card h3 { padding: 20px 20px 0; margin: 0 0 4px; color: var(--color-black); }
 .card p { padding: 0 20px 20px; margin: 0; color: var(--color-muted); }
 .card-img { aspect-ratio: 4/3; background: linear-gradient(135deg, #2a231b, #14110e); }
+.card-img.photo-frame,
+.stallion-photo.photo-frame {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.card-img.photo-frame img,
+.stallion-photo.photo-frame img { width: 100%; height: 100%; object-fit: contain; }
 
 /* Stat box — echoes the boxed stats in the print ads */
 .stat-box {
@@ -186,6 +313,7 @@ a:hover { color: var(--color-gold); }
 /* Stallion page */
 .stallion { display: grid; gap: 48px; grid-template-columns: 1fr 1.1fr; align-items: start; }
 .stallion-photo.card-img { aspect-ratio: 3/4; }
+.stallion-photo.card-img.photo-frame { aspect-ratio: 4/3; }
 .stallion-wordmark { max-width: 260px; margin-bottom: 8px; }
 .meta { color: var(--color-muted); font-size: 1.05rem; }
 .standing-at {
