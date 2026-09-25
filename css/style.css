@@ -202,7 +202,9 @@ a:hover { color: var(--color-gold); }
 
 /* Hero */
 .hero {
-  background: linear-gradient(160deg, #0c0b0a 0%, #1c1815 55%, #2a231b 100%);
+  background:
+    linear-gradient(180deg, rgba(10,9,8,.55) 0%, rgba(10,9,8,.7) 55%, rgba(10,9,8,.92) 100%),
+    url("/images/hero-dirty-fling.jpg") center 30%/cover no-repeat;
   color: #fff;
   padding: 130px 0;
   text-align: center;
