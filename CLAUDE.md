@@ -35,6 +35,9 @@ competes himself, with success at the Riata. Don't assume the current
 - Compress images before committing (aim < 300 KB each, use .webp or .jpg).
 - Every page needs a unique <title> and meta description.
 - Explain changes to Kari in plain English, not jargon.
+- Every featured horse (stallion or mare) needs a Pedigree section — at minimum
+  sire, ideally dam too. If pedigree info isn't available yet, say so explicitly
+  ("Full pedigree coming soon") rather than omitting the section or guessing.
 
 ## Deploy
     git add -A
@@ -44,6 +47,9 @@ competes himself, with success at the Riata. Don't assume the current
 ## Still to gather from client
 - Domain + where DNS lives.
 - Photo for WSR Hesa Dunofa Lena "Rooster" (Dirty Fling's photo is in).
+- Rooster's full pedigree (sire/dam) — not in any source material yet.
+- Senoritas Holly Time's dam (featured mare; sire is Hickory Holly Time, per
+  the Team Roping Journal article) — and a photo of her.
 - Decision on which additional (unproven) stallions to feature, if any.
 - Mare band info + photos, and which mares to highlight.
 - Details on the Colorado and Arizona locations (what happens at each).
