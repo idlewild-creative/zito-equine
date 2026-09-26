@@ -141,6 +141,24 @@ a:hover { color: var(--color-gold); }
 }
 .key-facts dd { margin: 0; font-weight: 700; }
 
+/* Snapshot — a fun, tilted photo accent, not a formal card */
+.snapshot-wrap { text-align: center; margin-top: 48px; }
+.snapshot {
+  display: inline-block;
+  max-width: 260px;
+  border: 6px solid #fff;
+  box-shadow: 0 10px 26px rgba(0,0,0,.18);
+  transform: rotate(-3deg);
+}
+.snapshot-caption {
+  display: block;
+  margin-top: 14px;
+  font-family: var(--font-script);
+  font-size: 1.3rem;
+  color: var(--color-gold-dark);
+  transform: rotate(-2deg);
+}
+
 .press-card {
   border: 1px solid var(--color-gold);
   background: var(--color-surface);
