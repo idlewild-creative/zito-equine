@@ -37,6 +37,8 @@ competes himself, with success at the Riata. Don't assume the current
 - Mobile-first, must look good at phone width.
 - Compress images before committing (aim < 300 KB each, use .webp or .jpg).
 - Every page needs a unique <title> and meta description.
+- Outside links (press, Solo Select, Facebook, etc.) open in a new tab:
+  `target="_blank" rel="noopener"`.
 - Explain changes to Kari in plain English, not jargon.
 - Every featured horse (stallion or mare) needs a Pedigree section — at minimum
   sire, ideally dam too. If pedigree info isn't available yet, say so explicitly
