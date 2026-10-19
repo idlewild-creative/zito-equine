@@ -371,6 +371,16 @@ a:hover { color: var(--color-gold); }
 }
 .btn-outline:hover { border-color: #fff; color: #fff; }
 .stallion-hero .btn { margin-top: 24px; }
+.registered-name {
+  margin: 18px 0 0;
+  color: #fff;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.stallion-panel .registered-name { margin-top: 14px; font-size: clamp(1.1rem, 2.2vw, 1.5rem); }
+.stallion-panel .registered-name + .eyebrow { margin-top: 6px; }
 
 /* Cards */
 .card-grid { display: grid; gap: 32px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
