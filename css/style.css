@@ -149,6 +149,52 @@ a:hover { color: var(--color-gold); }
 .key-facts dd { margin: 0; font-weight: 700; }
 
 /* Snapshot — a fun, tilted photo accent, not a formal card */
+/* Pedigree chart — 3 generations: parents | grandparents | great-grandparents.
+   Sire's side on top (white), dam's side below (cream). */
+.pedigree {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, auto);
+  gap: 3px;
+  margin: 20px 0 28px;
+  font-size: .85rem;
+}
+.ped {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 10px;
+  border-left: 3px solid var(--color-gold);
+  line-height: 1.3;
+}
+.ped-sire { background: var(--color-surface); }
+.ped-dam { background: var(--color-bg-alt); border-left-color: var(--color-gold-dark); }
+.ped strong { text-transform: uppercase; letter-spacing: .03em; font-size: .8rem; color: var(--color-black); }
+.ped span { color: var(--color-muted); font-size: .75rem; }
+.ped.p-1, .ped.p-2 { padding: 12px; }
+.ped.p-1 strong, .ped.p-2 strong { font-size: .95rem; }
+.p-1 { grid-column: 1; grid-row: 1 / 5; }
+.p-2 { grid-column: 1; grid-row: 5 / 9; }
+.g-1 { grid-column: 2; grid-row: 1 / 3; }
+.g-2 { grid-column: 2; grid-row: 3 / 5; }
+.g-3 { grid-column: 2; grid-row: 5 / 7; }
+.g-4 { grid-column: 2; grid-row: 7 / 9; }
+.gg-1 { grid-column: 3; grid-row: 1; }
+.gg-2 { grid-column: 3; grid-row: 2; }
+.gg-3 { grid-column: 3; grid-row: 3; }
+.gg-4 { grid-column: 3; grid-row: 4; }
+.gg-5 { grid-column: 3; grid-row: 5; }
+.gg-6 { grid-column: 3; grid-row: 6; }
+.gg-7 { grid-column: 3; grid-row: 7; }
+.gg-8 { grid-column: 3; grid-row: 8; }
+.section-alt .ped-dam { background: #e6dccb; }
+@media (max-width: 480px) {
+  .ped { padding: 6px 7px; }
+  .ped strong { font-size: .7rem; letter-spacing: 0; }
+  .ped span { font-size: .68rem; }
+  .ped.p-1 strong, .ped.p-2 strong { font-size: .8rem; }
+}
+
 /* Quote hero — full-width dark band: big photo + big pull quote */
 .quote-hero {
   display: grid;
