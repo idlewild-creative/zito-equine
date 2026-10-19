@@ -426,6 +426,7 @@ a:hover { color: var(--color-gold); }
   margin: 24px 0;
 }
 .stat-box .stat-line { display: block; font-weight: 600; }
+.stat-box .stat-note { display: block; margin-top: 12px; padding-top: 12px; border-top: 1px solid #e3d9c6; font-size: .85rem; color: var(--color-muted); }
 .stat-box .stat-big {
   display: block;
   font-family: var(--font-heading);
