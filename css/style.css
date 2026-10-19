@@ -371,6 +371,18 @@ a:hover { color: var(--color-gold); }
 }
 .btn-outline:hover { border-color: #fff; color: #fff; }
 .stallion-hero .btn { margin-top: 24px; }
+.horse-sub {
+  display: block;
+  margin: 4px 0 18px;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+.stallion-hero .horse-sub { color: var(--color-gold-light); margin: 8px 0 0; }
+h2 + .horse-sub { margin-top: -8px; }
+.ped strong a { color: inherit; }
 .registered-name {
   margin: 18px 0 0;
   color: #fff;
