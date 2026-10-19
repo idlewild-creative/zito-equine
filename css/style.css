@@ -191,6 +191,14 @@ a:hover { color: var(--color-gold); }
   .ped.p-1 strong, .ped.p-2 strong { font-size: .8rem; }
 }
 
+/* Full-width pedigree row — last block for each horse */
+.pedigree-wide { margin-top: 48px; padding-top: 32px; border-top: 1px solid #e3d9c6; }
+.pedigree-wide .pedigree { font-size: .95rem; margin-bottom: 0; }
+.pedigree-wide .ped { padding: 10px 14px; }
+.pedigree-wide .ped strong { font-size: .9rem; }
+.pedigree-wide .ped span { font-size: .8rem; }
+.pedigree-wide .ped.p-1 strong, .pedigree-wide .ped.p-2 strong { font-size: 1.1rem; }
+
 /* Quote hero — full-width dark band: big photo + big pull quote */
 .quote-hero {
   display: grid;
