@@ -301,7 +301,7 @@ a:hover { color: var(--color-gold); }
 .card:has(.card-btn) > * { flex-shrink: 0; }
 .card-btn { align-self: flex-start; margin: auto 20px 24px; }
 .card:hover .card-btn { background: var(--color-gold-dark); }
-.card-img { aspect-ratio: 4/3; background: linear-gradient(135deg, #2a231b, #14110e); }
+.card-img { aspect-ratio: 4/3; min-height: 0; overflow: hidden; background: linear-gradient(135deg, #2a231b, #14110e); }
 .card-img.photo-frame,
 .stallion-photo.photo-frame {
   background: #fff;
