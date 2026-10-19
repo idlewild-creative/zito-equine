@@ -52,8 +52,6 @@ competes himself, with success at the Riata. Don't assume the current
 ## Still to gather from client
 - Domain + where DNS lives.
 - Photo for WSR Hesa Dunofa Lena "Rooster" (Dirty Fling's photo is in).
-- Senoritas Holly Time's dam (featured mare; sire is Hickory Holly Time, per
-  the Team Roping Journal article) — and a photo of her.
 - Decision on which additional (unproven) stallions to feature, if any.
 - Mare band info + photos, and which mares to highlight.
 - Details on the Colorado and Arizona locations (what happens at each).
