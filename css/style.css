@@ -491,6 +491,12 @@ a:hover { color: var(--color-gold); }
 }
 .stallion-panel .btn { margin-top: auto; }
 
+/* Jump links — anchor buttons to sections further down a page */
+.jump-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 28px; }
+.jump-links .btn-outline:hover { background: var(--color-gold); border-color: var(--color-gold); }
+section[id] { scroll-margin-top: 96px; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
 /* Generic two-column split — reused by the About section on the homepage */
 .split { display: grid; gap: 48px; grid-template-columns: 1fr 1.1fr; align-items: start; }
 
