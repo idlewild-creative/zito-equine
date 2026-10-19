@@ -182,31 +182,27 @@ a:hover { color: var(--color-gold); }
   margin-top: 10px;
 }
 
-/* Stat strip — homepage-level highlights, echoes stallion-station stat rows */
-.stat-strip {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 32px;
+/* Announcement bar — single homepage statement under the hero */
+.announce {
   text-align: center;
   padding: 48px 0;
   border-top: 1px solid #e3d9c6;
   border-bottom: 1px solid #e3d9c6;
 }
-.stat-strip .stat-big {
-  display: block;
-  font-family: var(--font-heading);
-  font-size: 2.4rem;
+.announce p { margin: 0; }
+.announce-lead {
+  font-size: .85rem;
   font-weight: 700;
-  color: var(--color-gold-dark);
-}
-.stat-strip .stat-label {
-  display: block;
-  font-size: .78rem;
-  font-weight: 700;
-  letter-spacing: .1em;
+  letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--color-muted);
-  margin-top: 4px;
+}
+.announce .announce-big {
+  font-family: var(--font-heading);
+  font-size: clamp(1.9rem, 5vw, 2.8rem);
+  font-weight: 700;
+  color: var(--color-gold-dark);
+  margin: 6px 0 24px;
 }
 
 /* Header */
