@@ -374,6 +374,7 @@ a:hover { color: var(--color-gold); }
 
 /* Cards */
 .card-grid { display: grid; gap: 32px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.card-grid-2 { grid-template-columns: repeat(2, 1fr); }
 .card {
   background: var(--color-surface);
   border-radius: var(--radius);
@@ -493,6 +494,6 @@ a:hover { color: var(--color-gold); }
   }
   .site-nav.open { display: block; }
   .site-nav a { display: block; margin: 14px 0; }
-  .stallion, .split, .press-grid { grid-template-columns: 1fr; }
+  .stallion, .split, .press-grid, .card-grid-2 { grid-template-columns: 1fr; }
   .hero { padding: 90px 0; }
 }
