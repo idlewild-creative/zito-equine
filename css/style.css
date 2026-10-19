@@ -297,6 +297,9 @@ a:hover { color: var(--color-gold); }
 .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.12); }
 .card h3 { padding: 20px 20px 0; margin: 0 0 4px; color: var(--color-black); }
 .card p { padding: 0 20px 20px; margin: 0; color: var(--color-muted); }
+.card:has(.card-btn) { display: flex; flex-direction: column; }
+.card-btn { align-self: flex-start; margin: auto 20px 24px; }
+.card:hover .card-btn { background: var(--color-gold-dark); }
 .card-img { aspect-ratio: 4/3; background: linear-gradient(135deg, #2a231b, #14110e); }
 .card-img.photo-frame,
 .stallion-photo.photo-frame {
