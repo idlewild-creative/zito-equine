@@ -168,6 +168,8 @@ a:hover { color: var(--color-gold); }
   text-align: left;
 }
 .press-card .stat-line { display: block; }
+.press-img { display: block; margin: -20px -24px 16px; }
+.press-img img { display: block; width: 100%; height: auto; }
 .press-card h3 { margin: 4px 0; }
 .press-card h3 a { color: var(--color-black); }
 .press-card h3 a:hover { color: var(--color-gold-dark); }
