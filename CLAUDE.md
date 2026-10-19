@@ -15,7 +15,9 @@ competes himself, with success at the Riata. Don't assume the current
 
 ## Stack
 - Plain static HTML / CSS / vanilla JS. No build step, no framework.
-- Hosted on Netlify, auto-deploys on push to `main`.
+- Hosted on Netlify, auto-deploys on push to `main`. Preview/live URL for now:
+  https://zito-equine.netlify.app. zitoequine.com is still a Squarespace
+  "Coming Soon" page — don't connect the domain/DNS until Kari says she's ready.
 - Repo lives in the `idlewild-creative` GitHub org.
 - Forms use Netlify Forms (`data-netlify="true"`), no backend.
 
@@ -24,6 +26,7 @@ competes himself, with success at the Riata. Don't assume the current
 - `stallions/` — one page per stallion (copy `stallions/_template.html`); each
   stallion's own breeding info (stud fee, terms, semen availability) lives on
   their page — there's no separate breeding page.
+- `mares/index.html` — one page for all featured mares (Dirty Deed first)
 - `contact.html` — breeding inquiry form (Netlify Forms)
 - `css/style.css` — all styles; design tokens live at the top in `:root`
 - `js/main.js` — mobile nav + small enhancements only

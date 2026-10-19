@@ -357,6 +357,15 @@ a:hover { color: var(--color-gold); }
 .stallion-photo.card-img.photo-frame { aspect-ratio: 4/3; }
 .stallion-wordmark { max-width: 260px; margin-bottom: 8px; }
 .meta { color: var(--color-muted); font-size: 1.05rem; }
+.pull-quote {
+  margin: 24px 0;
+  padding: 4px 0 4px 20px;
+  border-left: 3px solid var(--color-gold);
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-style: italic;
+}
+.pull-quote cite { display: block; margin-top: 8px; font-family: inherit; font-size: .9rem; font-style: normal; font-weight: 700; color: var(--color-muted); }
 .standing-at {
   font-family: var(--font-script);
   font-size: 1.3rem;
