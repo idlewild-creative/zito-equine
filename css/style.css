@@ -370,7 +370,6 @@ a:hover { color: var(--color-gold); }
   text-transform: uppercase;
 }
 .btn-outline:hover { border-color: #fff; color: #fff; }
-.card-cta { text-align: center; margin: 32px 0 0; }
 .stallion-hero .btn { margin-top: 8px; }
 
 /* Cards */
