@@ -15,9 +15,11 @@ competes himself, with success at the Riata. Don't assume the current
 
 ## Stack
 - Plain static HTML / CSS / vanilla JS. No build step, no framework.
-- Hosted on Netlify, auto-deploys on push to `main`. Preview/live URL for now:
-  https://zito-equine.netlify.app. zitoequine.com is still a Squarespace
-  "Coming Soon" page — don't connect the domain/DNS until Kari says she's ready.
+- Hosted on Netlify (site `zito-equine`), auto-deploys on push to `main`.
+  Custom domain zitoequine.com (+ www) set on Netlify 2026-11-04. Domain is
+  registered at Squarespace and DNS is managed in Squarespace's domain panel:
+  apex A record -> 75.2.60.5, www CNAME -> zito-equine.netlify.app.
+  Email is Google Workspace (MX smtp.google.com + SPF TXT) — never touch those.
 - Repo lives in the `idlewild-creative` GitHub org.
 - Forms use Netlify Forms (`data-netlify="true"`), no backend.
 
@@ -50,7 +52,6 @@ competes himself, with success at the Riata. Don't assume the current
     git push
 
 ## Still to gather from client
-- Domain + where DNS lives.
 - Photo for WSR Hesa Dunofa Lena "Rooster" (Dirty Fling's photo is in).
 - Decision on which additional (unproven) stallions to feature, if any.
 - Mare band info + photos, and which mares to highlight.
